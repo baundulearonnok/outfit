@@ -107,11 +107,11 @@ def process_dc(vton_img, garm_img, category, n_samples, n_steps, image_scale, se
 block = gr.Blocks().queue()
 with block:
     with gr.Row():
-        gr.Markdown("# OOTDiffusion Demo")
+        gr.Markdown("KAMAL's AI STUDIO")
     with gr.Row():
-        gr.Markdown("## Half-body")
+        gr.Markdown("# Half-body")
     with gr.Row():
-        gr.Markdown("***Support upper-body garments***")
+        gr.Markdown("***Upper-body Garments***")
     with gr.Row():
         with gr.Column():
             vton_img = gr.Image(label="Model", sources='upload', type="filepath", height=384, value=model_hd)
@@ -172,7 +172,7 @@ with block:
     with gr.Row():
         gr.Markdown("## Full-body")
     with gr.Row():
-        gr.Markdown("***Support upper-body/lower-body/dresses; garment category must be paired!!!***")
+        gr.Markdown("***Upper-body/lower-body/dresses; garment category must be paired!!!***")
     with gr.Row():
         with gr.Column():
             vton_img_dc = gr.Image(label="Model", sources='upload', type="filepath", height=384, value=model_dc)
