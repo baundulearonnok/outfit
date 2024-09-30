@@ -170,7 +170,7 @@ with block:
 
 
     with gr.Row():
-        gr.Markdown("## Full-body")
+        gr.Markdown("##Full-body")
     with gr.Row():
         gr.Markdown("***Upper-body/lower-body/dresses; garment category must be paired!!!***")
     with gr.Row():
