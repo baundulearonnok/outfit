@@ -107,7 +107,7 @@ def process_dc(vton_img, garm_img, category, n_samples, n_steps, image_scale, se
 block = gr.Blocks().queue()
 with block:
     with gr.Row():
-        gr.Markdown("## KAMAL's AI STUDIO")
+        gr.Markdown("## KAMAL's OUTFIT STUDIO")
     with gr.Row():
         gr.Markdown("# Half-body")
     with gr.Row():
